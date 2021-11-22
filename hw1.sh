@@ -6,8 +6,8 @@ if [ $1 -eq 0 ]; then
  if [ -d /$2 ]; then
  chown -R $1:$1 $2
  else 
-  echo "now such dir"
+  echo "not such dir"
  fi
 else 
-echo "now such user"
+echo "not such user"
 fi
